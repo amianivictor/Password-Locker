@@ -47,7 +47,10 @@ def main():
                 print(f"welcome: {entered_username} to your account")
                 print("\n")
 
-                
+        elif short_code == 'lg':
+            print("welcome")
+            print("enter user name")
+            default_user_name = input()    
 
 
 
