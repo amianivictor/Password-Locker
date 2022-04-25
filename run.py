@@ -6,7 +6,7 @@ def main():
     while True:
         print('Hello welcome to password locker application!')
         print('n')
-        print("chose a code to navigate through the app: new user use 'nu':logging in use 'lg':to exit use 'ex'")
+        print("You can chose the following commands to navigate the app: new user use 'nu':logging in use 'lg':to exit use 'ex'")
         short_code = input().lower()
         print('\n')
 
