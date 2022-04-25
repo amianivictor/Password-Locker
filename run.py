@@ -44,11 +44,11 @@ def main():
                 entered_password =input()
 
             else:
-                print(f"welcome: {entered_username} to your account")
+                print(f"Hi! welcome: {entered_username} to your account")
                 print("\n")
 
         elif short_code == 'lg':
-            print("welcome")
+            print("Hi! welcome")
             print("enter user name")
             default_user_name = input()
 
@@ -66,7 +66,7 @@ def main():
                 print("\n")
 
             else:
-                print("login success")
+                print("login successful")
                 print('\n')
 
         elif short_code == "ex":
