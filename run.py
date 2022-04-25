@@ -22,13 +22,13 @@ def main():
 
             while confirm_password != created_user_password:
                 print("wrong password did not match!!")
-                print("enter your password")
+                print("enter your password to continue")
                 created_user_password = input()
-                print("confrim your password")
+                print("confrim your password to continue")
                 confirm_password = input()
 
             else:
-                print(f"congratulations {created_user_name}! account creation successful")
+                print(f"successful {created_user_name}! account creation successful")
                 print('\n')
                 print("continue to login")
                 print("Username")
