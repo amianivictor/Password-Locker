@@ -30,14 +30,14 @@ def main():
             else:
                 print(f"successful {created_user_name}! account creation successful")
                 print('\n')
-                print("continue to login")
+                print("proceed to login")
                 print("Username")
                 entered_username =input()
                 print("your password")
                 entered_password =input()
 
             while entered_username != created_user_name or entered_password != created_user_password:
-                print("Invalid username or password")
+                print("wrong username or password")
                 print("Username")
                 entered_username = input()
                 print("your password")
