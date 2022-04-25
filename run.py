@@ -21,7 +21,7 @@ def main():
             confirm_password = input()
 
             while confirm_password != created_user_password:
-                print("invalid password did not match!!")
+                print("wrong password did not match!!")
                 print("enter your password")
                 created_user_password = input()
                 print("confrim your password")
